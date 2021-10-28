@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>NugetTest</id>
+    <version>1.0.0</version>
+    <title>NugetTest</title>
+    <authors>Temobg</authors>
+    <owners>Temobg</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>Any</description>
+    <copyright>Copyright 2020</copyright>
+    <dependencies>
+      <group targetFramework=".NetStandard2.0"/>
+      <group targetFramework="MonoAndroid9.0"/>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src=" .\bin\Debug\Library.Core.dll" target="lib\netstandard2.0\Library.Core.dll"/>
+    <file src=" .\bin\Debug\Library.Android.dll"
+          target="lib\MonoAndroid9.0\Library.Android.dll"/>
+  </files>
+</package>
