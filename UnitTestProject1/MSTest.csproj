@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App1\App1.csproj">
+    <ProjectReference Include="..\App1\App.Droid.csproj">
       <Project>{0CD62236-29CE-4A7B-B82A-2738A11C0A5D}</Project>
-      <Name>App1</Name>
+      <Name>App.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
